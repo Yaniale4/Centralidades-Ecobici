@@ -1,0 +1,899 @@
+%% Centralidad: Grado de entrada Día del viaje entre semana
+{
+\def\sym#1{\ifmmode^{#1}\else\(^{#1}\)\fi}
+{\footnotesize
+\begingroup
+\renewcommand*{\arraystretch}{0.7}
+\begin{longtable}{l*{4}{c}}
+\caption{\textbf{\large Grado de Entrada: Día del viaje entre semana}} 
+\label{tab::Top200_Grado_de_Entrada_Dia_Entre_Semana} \\
+\hline\hline
+                    &\multicolumn{1}{c}{Ciclo-Estación}&\multicolumn{1}{c}{Alcaldía}&\multicolumn{1}{c}{Colonia}&\multicolumn{1}{c}{Grado de Entrada}\\
+\hline
+\endhead
+\hline
+\endfoot
+\endlastfoot
+1 & 28 & Cuauhtémoc & Juárez & 0.9064 \\
+2 & 271 & Cuauhtémoc & Buenavista & 0.9064 \\
+3 & 136 & Cuauhtémoc & Roma Norte & 0.9031 \\
+4 & 56 & Cuauhtémoc & Roma Norte & 0.8982 \\
+5 & 158 & Cuauhtémoc & Roma Sur & 0.8982 \\
+6 & 25 & Cuauhtémoc & Juárez & 0.8949 \\
+7 & 43 & Cuauhtémoc & Centro & 0.8933 \\
+8 & 64 & Cuauhtémoc & Hipódromo & 0.8933 \\
+9 & 142 & Cuauhtémoc & Roma Norte & 0.8933 \\
+10 & 182 & Miguel Hidalgo & Escandón & 0.8883 \\
+11 & 31 & Cuauhtémoc & Juárez & 0.8867 \\
+12 & 291 & Benito Juárez & Del Valle Norte & 0.8867 \\
+13 & 47 & Cuauhtémoc & Roma Norte & 0.8851 \\
+14 & 129 & Cuauhtémoc & Roma Norte & 0.8851 \\
+15 & 154 & Cuauhtémoc & Roma Sur & 0.8834 \\
+16 & 27 & Cuauhtémoc & Juárez & 0.8818 \\
+17 & 30 & Cuauhtémoc & Juárez & 0.8801 \\
+18 & 45 & Cuauhtémoc & Roma Norte & 0.8801 \\
+19 & 280 & Benito Juárez & Narvarte Poniente & 0.8801 \\
+20 & 117 & Cuauhtémoc & Juárez & 0.8785 \\
+21 & 134 & Cuauhtémoc & Roma Norte & 0.8768 \\
+22 & 303 & Benito Juárez & Nápoles & 0.8752 \\
+23 & 137 & Cuauhtémoc & Roma Norte & 0.8736 \\
+24 & 139 & Cuauhtémoc & Roma Norte & 0.8736 \\
+25 & 141 & Cuauhtémoc & Roma Norte & 0.8736 \\
+26 & 276 & Benito Juárez & Narvarte Poniente & 0.8736 \\
+27 & 14 & Cuauhtémoc & Cuauhtémoc & 0.8703 \\
+28 & 17 & Cuauhtémoc & Cuauhtémoc & 0.8703 \\
+29 & 115 & Cuauhtémoc & Juárez & 0.8703 \\
+30 & 54 & Cuauhtémoc & Condesa & 0.8686 \\
+31 & 180 & Cuauhtémoc & Hipódromo & 0.8670 \\
+32 & 295 & Benito Juárez & Narvarte Poniente & 0.8670 \\
+33 & 145 & Cuauhtémoc & Roma Norte & 0.8654 \\
+34 & 33 & Cuauhtémoc & Juárez & 0.8637 \\
+35 & 38 & Cuauhtémoc & Roma Norte & 0.8637 \\
+36 & 37 & Cuauhtémoc & Roma Norte & 0.8621 \\
+37 & 121 & Cuauhtémoc & Juárez & 0.8621 \\
+38 & 150 & Cuauhtémoc & Roma Sur & 0.8588 \\
+39 & 18 & Cuauhtémoc & Cuauhtémoc & 0.8571 \\
+40 & 449 & Cuauhtémoc & Roma Norte & 0.8571 \\
+41 & 133 & Cuauhtémoc & Roma Norte & 0.8539 \\
+42 & 135 & Cuauhtémoc & Roma Norte & 0.8539 \\
+43 & 281 & Benito Juárez & Narvarte Poniente & 0.8539 \\
+44 & 128 & Cuauhtémoc & Roma Norte & 0.8522 \\
+45 & 131 & Cuauhtémoc & Roma Norte & 0.8522 \\
+46 & 302 & Benito Juárez & Del Valle Norte & 0.8522 \\
+47 & 46 & Cuauhtémoc & Roma Norte & 0.8506 \\
+48 & 126 & Cuauhtémoc & Roma Norte & 0.8506 \\
+49 & 144 & Cuauhtémoc & Roma Norte & 0.8506 \\
+50 & 315 & Benito Juárez & Nápoles & 0.8506 \\
+51 & 1 & Cuauhtémoc & Cuauhtémoc & 0.8489 \\
+52 & 32 & Cuauhtémoc & Juárez & 0.8489 \\
+53 & 53 & Cuauhtémoc & Condesa & 0.8489 \\
+54 & 123 & Cuauhtémoc & Doctores & 0.8489 \\
+55 & 36 & Cuauhtémoc & Roma Norte & 0.8473 \\
+56 & 59 & Cuauhtémoc & Hipódromo & 0.8473 \\
+57 & 132 & Cuauhtémoc & Roma Norte & 0.8473 \\
+58 & 290 & Benito Juárez & Nápoles & 0.8473 \\
+59 & 155 & Cuauhtémoc & Roma Sur & 0.8456 \\
+60 & 107 & Cuauhtémoc & Centro & 0.8440 \\
+61 & 270 & Cuauhtémoc & Tabacalera & 0.8440 \\
+62 & 124 & Cuauhtémoc & Doctores & 0.8424 \\
+63 & 146 & Cuauhtémoc & Roma Norte & 0.8424 \\
+64 & 151 & Cuauhtémoc & Roma Sur & 0.8424 \\
+65 & 163 & Cuauhtémoc & Roma Sur & 0.8424 \\
+66 & 175 & Miguel Hidalgo & Escandón & 0.8424 \\
+67 & 555 & Cuauhtémoc & Santa Maria la Ribera & 0.8424 \\
+68 & 40 & Cuauhtémoc & Roma Norte & 0.8407 \\
+69 & 152 & Cuauhtémoc & Roma Sur & 0.8407 \\
+70 & 164 & Cuauhtémoc & Roma Sur & 0.8407 \\
+71 & 369 & Benito Juárez & Extremadura Insurgentes & 0.8407 \\
+72 & 24 & Cuauhtémoc & Juárez & 0.8391 \\
+73 & 116 & Cuauhtémoc & Juárez & 0.8391 \\
+74 & 179 & Cuauhtémoc & Hipódromo & 0.8391 \\
+75 & 34 & Cuauhtémoc & Juárez & 0.8374 \\
+76 & 165 & Cuauhtémoc & Roma Sur & 0.8374 \\
+77 & 15 & Cuauhtémoc & Cuauhtémoc & 0.8358 \\
+78 & 21 & Cuauhtémoc & Juárez & 0.8358 \\
+79 & 29 & Cuauhtémoc & Centro & 0.8358 \\
+80 & 130 & Cuauhtémoc & Roma Norte & 0.8358 \\
+81 & 170 & Miguel Hidalgo & Escandón & 0.8358 \\
+82 & 52 & Cuauhtémoc & Centro & 0.8342 \\
+83 & 250 & Miguel Hidalgo & Anzures & 0.8342 \\
+84 & 194 & Miguel Hidalgo & Bosque de Chapultepec & 0.8325 \\
+85 & 109 & Cuauhtémoc & Centro & 0.8309 \\
+86 & 5 & Cuauhtémoc & Cuauhtémoc & 0.8292 \\
+87 & 16 & Cuauhtémoc & Cuauhtémoc & 0.8292 \\
+88 & 42 & Cuauhtémoc & Roma Norte & 0.8292 \\
+89 & 51 & Cuauhtémoc & Roma Norte & 0.8292 \\
+90 & 125 & Cuauhtémoc & Roma Norte & 0.8292 \\
+91 & 41 & Cuauhtémoc & Tabacalera & 0.8276 \\
+92 & 55 & Cuauhtémoc & Centro & 0.8259 \\
+93 & 61 & Cuauhtémoc & Hipódromo & 0.8259 \\
+94 & 66 & Cuauhtémoc & Condesa & 0.8259 \\
+95 & 110 & Cuauhtémoc & Doctores & 0.8259 \\
+96 & 147 & Cuauhtémoc & Roma Norte & 0.8259 \\
+97 & 185 & Miguel Hidalgo & San Miguel Chapultepec & 0.8259 \\
+98 & 260 & Cuauhtémoc & Centro & 0.8259 \\
+99 & 6 & Cuauhtémoc & Cuauhtémoc & 0.8243 \\
+100 & 597 & Benito Juárez & Narvarte & 0.8243 \\
+101 & 63 & Cuauhtémoc & Hipódromo & 0.8227 \\
+102 & 68 & Cuauhtémoc & Condesa & 0.8210 \\
+103 & 69 & Cuauhtémoc & Hipódromo & 0.8210 \\
+104 & 122 & Cuauhtémoc & Doctores & 0.8210 \\
+105 & 140 & Cuauhtémoc & Roma Norte & 0.8194 \\
+106 & 321 & Benito Juárez & Narvarte Poniente & 0.8194 \\
+107 & 22 & Cuauhtémoc & Juárez & 0.8177 \\
+108 & 23 & Cuauhtémoc & Juárez & 0.8161 \\
+109 & 120 & Cuauhtémoc & Juárez & 0.8161 \\
+110 & 35 & Cuauhtémoc & Juárez & 0.8144 \\
+111 & 143 & Cuauhtémoc & Roma Norte & 0.8112 \\
+112 & 119 & Cuauhtémoc & Juárez & 0.8095 \\
+113 & 317 & Benito Juárez & Del Valle Norte & 0.8095 \\
+114 & 447 & Cuauhtémoc & Condesa & 0.8095 \\
+115 & 341 & Benito Juárez & Narvarte Poniente & 0.8095 \\
+116 & 299 & Benito Juárez & Del Valle Norte & 0.8079 \\
+117 & 149 & Cuauhtémoc & Roma Sur & 0.8062 \\
+118 & 294 & Benito Juárez & Narvarte Poniente & 0.8062 \\
+119 & 300 & Benito Juárez & Del Valle Norte & 0.8062 \\
+120 & 306 & Benito Juárez & Nápoles & 0.8046 \\
+121 & 157 & Cuauhtémoc & Roma Sur & 0.8046 \\
+122 & 19 & Cuauhtémoc & Cuauhtémoc & 0.8030 \\
+123 & 20 & Cuauhtémoc & Cuauhtémoc & 0.8030 \\
+124 & 49 & Cuauhtémoc & Condesa & 0.8030 \\
+125 & 148 & Cuauhtémoc & Roma Norte & 0.8030 \\
+126 & 48 & Cuauhtémoc & Centro & 0.8013 \\
+127 & 282 & Benito Juárez & Del Valle Norte & 0.8013 \\
+128 & 405 & Benito Juárez & Portales Norte & 0.8013 \\
+129 & 266 & Cuauhtémoc & Buenavista & 0.7997 \\
+130 & 4 & Cuauhtémoc & Cuauhtémoc & 0.7980 \\
+131 & 39 & Cuauhtémoc & Roma Norte & 0.7980 \\
+132 & 162 & Cuauhtémoc & Roma Sur & 0.7980 \\
+133 & 58 & Cuauhtémoc & Condesa & 0.7964 \\
+134 & 127 & Cuauhtémoc & Roma Norte & 0.7964 \\
+135 & 253 & Miguel Hidalgo & Anzures & 0.7964 \\
+136 & 284 & Benito Juárez & Nápoles & 0.7964 \\
+137 & 166 & Miguel Hidalgo & Escandón & 0.7964 \\
+138 & 65 & Cuauhtémoc & Centro & 0.7947 \\
+139 & 118 & Cuauhtémoc & Juárez & 0.7947 \\
+140 & 258 & Cuauhtémoc & Condesa & 0.7947 \\
+141 & 190 & Miguel Hidalgo & San Miguel Chapultepec & 0.7931 \\
+142 & 217 & Miguel Hidalgo & Polanco & 0.7931 \\
+143 & 334 & Benito Juárez & Ampliación Nápoles & 0.7931 \\
+144 & 173 & Miguel Hidalgo & Escandón & 0.7915 \\
+145 & 195 & Miguel Hidalgo & Bosque de Chapultepec & 0.7915 \\
+146 & 44 & Cuauhtémoc & Roma Norte & 0.7898 \\
+147 & 60 & Cuauhtémoc & Condesa & 0.7898 \\
+148 & 161 & Cuauhtémoc & Roma Sur & 0.7898 \\
+149 & 389 & Benito Juárez & Insurgentes Mixcoac & 0.7898 \\
+150 & 181 & Cuauhtémoc & Hipódromo & 0.7898 \\
+151 & 113 & Cuauhtémoc & Juárez & 0.7882 \\
+152 & 354 & Benito Juárez & Noche Buena & 0.7882 \\
+153 & 549 & Cuauhtémoc & Santa Maria la Ribera & 0.7882 \\
+154 & 326 & Benito Juárez & Ampliación Nápoles & 0.7882 \\
+155 & 340 & Benito Juárez & Narvarte Poniente & 0.7882 \\
+156 & 278 & Benito Juárez & Del Valle Norte & 0.7865 \\
+157 & 668 & Benito Juárez & San Jose Insurgentes & 0.7865 \\
+158 & 114 & Cuauhtémoc & Juárez & 0.7849 \\
+159 & 273 & Cuauhtémoc & Buenavista & 0.7849 \\
+160 & 390 & Benito Juárez & Actipan & 0.7849 \\
+161 & 450 & Cuauhtémoc & Tabacalera & 0.7833 \\
+162 & 308 & Benito Juárez & Nápoles & 0.7833 \\
+163 & 375 & Benito Juárez & Letrán Valle & 0.7833 \\
+164 & 26 & Cuauhtémoc & Juárez & 0.7816 \\
+165 & 138 & Cuauhtémoc & Roma Norte & 0.7816 \\
+166 & 259 & Cuauhtémoc & Tabacalera & 0.7816 \\
+167 & 283 & Benito Juárez & Del Valle Norte & 0.7816 \\
+168 & 327 & Benito Juárez & Nápoles & 0.7816 \\
+169 & 169 & Miguel Hidalgo & Escandón & 0.7816 \\
+170 & 320 & Benito Juárez & Narvarte Poniente & 0.7816 \\
+171 & 2 & Cuauhtémoc & Cuauhtémoc & 0.7800 \\
+172 & 12 & Cuauhtémoc & Cuauhtémoc & 0.7800 \\
+173 & 186 & Miguel Hidalgo & San Miguel Chapultepec & 0.7800 \\
+174 & 10 & Cuauhtémoc & Tabacalera & 0.7783 \\
+175 & 192 & Miguel Hidalgo & Bosque de Chapultepec & 0.7783 \\
+176 & 261 & Cuauhtémoc & Cuauhtémoc & 0.7783 \\
+177 & 351 & Benito Juárez & San Pedro de los Pinos & 0.7783 \\
+178 & 293 & Benito Juárez & Del Valle Norte & 0.7783 \\
+179 & 67 & Cuauhtémoc & Condesa & 0.7767 \\
+180 & 323 & Benito Juárez & Del Valle Norte & 0.7767 \\
+181 & 112 & Cuauhtémoc & Juárez & 0.7750 \\
+182 & 156 & Cuauhtémoc & Roma Sur & 0.7734 \\
+183 & 288 & Benito Juárez & San Pedro de los Pinos & 0.7734 \\
+184 & 3 & Cuauhtémoc & Tabacalera & 0.7718 \\
+185 & 277 & Benito Juárez & Narvarte Poniente & 0.7701 \\
+186 & 318 & Benito Juárez & Del Valle Norte & 0.7701 \\
+187 & 325 & Benito Juárez & Del Valle Centro & 0.7701 \\
+188 & 191 & Miguel Hidalgo & San Miguel Chapultepec & 0.7685 \\
+189 & 310 & Benito Juárez & San Pedro de los Pinos & 0.7668 \\
+190 & 11 & Cuauhtémoc & Cuauhtémoc & 0.7652 \\
+191 & 167 & Miguel Hidalgo & Escandón & 0.7652 \\
+192 & 172 & Miguel Hidalgo & Escandón & 0.7652 \\
+193 & 237 & Miguel Hidalgo & Polanco & 0.7652 \\
+194 & 305 & Benito Juárez & Nápoles & 0.7652 \\
+195 & 177 & Cuauhtémoc & Hipódromo Condesa & 0.7635 \\
+196 & 242 & Miguel Hidalgo & Polanco & 0.7635 \\
+197 & 256 & Cuauhtémoc & San Rafael & 0.7619 \\
+198 & 337 & Benito Juárez & Del Valle Centro & 0.7619 \\
+199 & 255 & Cuauhtémoc & San Rafael & 0.7603 \\
+200 & 257 & Cuauhtémoc & San Rafael & 0.7603 \\
+%
+\hline\hline
+\caption*{\footnotesize \textcolor{colorPrincipal}{Notas:}  El Grado de Entrada representa la proporción de llegadas a una estación desde otras estaciones. Donde un valor igual a 1 significa que la estación en cuestión recibe todas las llegadas desde otras estaciones y  con un valor igual a 0 indica que la estación en cuestión no recibe llegadas de ninguna otra estación.}
+\end{longtable}
+\endgroup
+%\end{spacing}
+}
+}
+%%%
+%% Centralidad: Grado de Salida Día del viaje entre semana
+{
+\def\sym#1{\ifmmode^{#1}\else\(^{#1}\)\fi}
+{\footnotesize
+\begingroup
+\renewcommand*{\arraystretch}{0.7}
+\begin{longtable}{l*{4}{c}}
+\caption{\textbf{\large Grado de Salida: Día del viaje entre semana }} 
+\label{tab::Top200_Grado_de_Salida_Dia_Entre_Semana} \\
+\hline\hline
+                    &\multicolumn{1}{c}{Ciclo-Estación}&\multicolumn{1}{c}{Alcaldía}&\multicolumn{1}{c}{Colonia}&\multicolumn{1}{c}{Grado de Salida}\\
+\hline
+\endhead
+\hline
+\endfoot
+\endlastfoot
+1 & 56 & Cuauhtémoc & Roma Norte & 0.9048 \\
+2 & 64 & Cuauhtémoc & Hipódromo & 0.9031 \\
+3 & 28 & Cuauhtémoc & Juárez & 0.9015 \\
+4 & 14 & Cuauhtémoc & Cuauhtémoc & 0.8966 \\
+5 & 46 & Cuauhtémoc & Roma Norte & 0.8900 \\
+6 & 182 & Miguel Hidalgo & Escandón & 0.8900 \\
+7 & 31 & Cuauhtémoc & Juárez & 0.8883 \\
+8 & 27 & Cuauhtémoc & Juárez & 0.8867 \\
+9 & 142 & Cuauhtémoc & Roma Norte & 0.8867 \\
+10 & 150 & Cuauhtémoc & Roma Sur & 0.8867 \\
+11 & 37 & Cuauhtémoc & Roma Norte & 0.8818 \\
+12 & 47 & Cuauhtémoc & Roma Norte & 0.8801 \\
+13 & 302 & Benito Juárez & Del Valle Norte & 0.8801 \\
+14 & 30 & Cuauhtémoc & Juárez & 0.8785 \\
+15 & 134 & Cuauhtémoc & Roma Norte & 0.8785 \\
+16 & 158 & Cuauhtémoc & Roma Sur & 0.8785 \\
+17 & 36 & Cuauhtémoc & Roma Norte & 0.8768 \\
+18 & 38 & Cuauhtémoc & Roma Norte & 0.8752 \\
+19 & 59 & Cuauhtémoc & Hipódromo & 0.8752 \\
+20 & 136 & Cuauhtémoc & Roma Norte & 0.8752 \\
+21 & 17 & Cuauhtémoc & Cuauhtémoc & 0.8736 \\
+22 & 18 & Cuauhtémoc & Cuauhtémoc & 0.8736 \\
+23 & 33 & Cuauhtémoc & Juárez & 0.8736 \\
+24 & 271 & Cuauhtémoc & Buenavista & 0.8736 \\
+25 & 291 & Benito Juárez & Del Valle Norte & 0.8736 \\
+26 & 449 & Cuauhtémoc & Roma Norte & 0.8736 \\
+27 & 32 & Cuauhtémoc & Juárez & 0.8686 \\
+28 & 54 & Cuauhtémoc & Condesa & 0.8686 \\
+29 & 43 & Cuauhtémoc & Centro & 0.8637 \\
+30 & 45 & Cuauhtémoc & Roma Norte & 0.8637 \\
+31 & 154 & Cuauhtémoc & Roma Sur & 0.8637 \\
+32 & 139 & Cuauhtémoc & Roma Norte & 0.8621 \\
+33 & 180 & Cuauhtémoc & Hipódromo & 0.8604 \\
+34 & 15 & Cuauhtémoc & Cuauhtémoc & 0.8588 \\
+35 & 40 & Cuauhtémoc & Roma Norte & 0.8588 \\
+36 & 280 & Benito Juárez & Narvarte Poniente & 0.8571 \\
+37 & 175 & Miguel Hidalgo & Escandón & 0.8539 \\
+38 & 121 & Cuauhtémoc & Juárez & 0.8522 \\
+39 & 146 & Cuauhtémoc & Roma Norte & 0.8522 \\
+40 & 19 & Cuauhtémoc & Cuauhtémoc & 0.8506 \\
+41 & 21 & Cuauhtémoc & Juárez & 0.8506 \\
+42 & 58 & Cuauhtémoc & Condesa & 0.8506 \\
+43 & 137 & Cuauhtémoc & Roma Norte & 0.8506 \\
+44 & 315 & Benito Juárez & Nápoles & 0.8506 \\
+45 & 179 & Cuauhtémoc & Hipódromo & 0.8506 \\
+46 & 117 & Cuauhtémoc & Juárez & 0.8489 \\
+47 & 25 & Cuauhtémoc & Juárez & 0.8473 \\
+48 & 281 & Benito Juárez & Narvarte Poniente & 0.8473 \\
+49 & 53 & Cuauhtémoc & Condesa & 0.8456 \\
+50 & 141 & Cuauhtémoc & Roma Norte & 0.8456 \\
+51 & 145 & Cuauhtémoc & Roma Norte & 0.8456 \\
+52 & 152 & Cuauhtémoc & Roma Sur & 0.8456 \\
+53 & 61 & Cuauhtémoc & Hipódromo & 0.8440 \\
+54 & 128 & Cuauhtémoc & Roma Norte & 0.8440 \\
+55 & 133 & Cuauhtémoc & Roma Norte & 0.8440 \\
+56 & 66 & Cuauhtémoc & Condesa & 0.8424 \\
+57 & 129 & Cuauhtémoc & Roma Norte & 0.8424 \\
+58 & 39 & Cuauhtémoc & Roma Norte & 0.8407 \\
+59 & 29 & Cuauhtémoc & Centro & 0.8391 \\
+60 & 51 & Cuauhtémoc & Roma Norte & 0.8374 \\
+61 & 60 & Cuauhtémoc & Condesa & 0.8374 \\
+62 & 123 & Cuauhtémoc & Doctores & 0.8374 \\
+63 & 34 & Cuauhtémoc & Juárez & 0.8358 \\
+64 & 165 & Cuauhtémoc & Roma Sur & 0.8358 \\
+65 & 144 & Cuauhtémoc & Roma Norte & 0.8342 \\
+66 & 295 & Benito Juárez & Narvarte Poniente & 0.8342 \\
+67 & 23 & Cuauhtémoc & Juárez & 0.8325 \\
+68 & 49 & Cuauhtémoc & Condesa & 0.8325 \\
+69 & 135 & Cuauhtémoc & Roma Norte & 0.8325 \\
+70 & 303 & Benito Juárez & Nápoles & 0.8325 \\
+71 & 447 & Cuauhtémoc & Condesa & 0.8325 \\
+72 & 16 & Cuauhtémoc & Cuauhtémoc & 0.8309 \\
+73 & 115 & Cuauhtémoc & Juárez & 0.8309 \\
+74 & 131 & Cuauhtémoc & Roma Norte & 0.8309 \\
+75 & 276 & Benito Juárez & Narvarte Poniente & 0.8309 \\
+76 & 63 & Cuauhtémoc & Hipódromo & 0.8292 \\
+77 & 190 & Miguel Hidalgo & San Miguel Chapultepec & 0.8292 \\
+78 & 1 & Cuauhtémoc & Cuauhtémoc & 0.8276 \\
+79 & 22 & Cuauhtémoc & Juárez & 0.8276 \\
+80 & 24 & Cuauhtémoc & Juárez & 0.8276 \\
+81 & 192 & Miguel Hidalgo & Bosque de Chapultepec & 0.8276 \\
+82 & 170 & Miguel Hidalgo & Escandón & 0.8276 \\
+83 & 35 & Cuauhtémoc & Juárez & 0.8259 \\
+84 & 68 & Cuauhtémoc & Condesa & 0.8259 \\
+85 & 300 & Benito Juárez & Del Valle Norte & 0.8259 \\
+86 & 42 & Cuauhtémoc & Roma Norte & 0.8243 \\
+87 & 116 & Cuauhtémoc & Juárez & 0.8227 \\
+88 & 126 & Cuauhtémoc & Roma Norte & 0.8227 \\
+89 & 164 & Cuauhtémoc & Roma Sur & 0.8227 \\
+90 & 261 & Cuauhtémoc & Cuauhtémoc & 0.8227 \\
+91 & 5 & Cuauhtémoc & Cuauhtémoc & 0.8210 \\
+92 & 41 & Cuauhtémoc & Tabacalera & 0.8210 \\
+93 & 52 & Cuauhtémoc & Centro & 0.8210 \\
+94 & 125 & Cuauhtémoc & Roma Norte & 0.8210 \\
+95 & 217 & Miguel Hidalgo & Polanco & 0.8210 \\
+96 & 67 & Cuauhtémoc & Condesa & 0.8194 \\
+97 & 167 & Miguel Hidalgo & Escandón & 0.8194 \\
+98 & 290 & Benito Juárez & Nápoles & 0.8177 \\
+99 & 120 & Cuauhtémoc & Juárez & 0.8161 \\
+100 & 194 & Miguel Hidalgo & Bosque de Chapultepec & 0.8161 \\
+101 & 237 & Miguel Hidalgo & Polanco & 0.8161 \\
+102 & 69 & Cuauhtémoc & Hipódromo & 0.8144 \\
+103 & 107 & Cuauhtémoc & Centro & 0.8144 \\
+104 & 143 & Cuauhtémoc & Roma Norte & 0.8144 \\
+105 & 284 & Benito Juárez & Nápoles & 0.8144 \\
+106 & 10 & Cuauhtémoc & Tabacalera & 0.8128 \\
+107 & 20 & Cuauhtémoc & Cuauhtémoc & 0.8128 \\
+108 & 147 & Cuauhtémoc & Roma Norte & 0.8128 \\
+109 & 13 & Cuauhtémoc & Cuauhtémoc & 0.8112 \\
+110 & 151 & Cuauhtémoc & Roma Sur & 0.8112 \\
+111 & 6 & Cuauhtémoc & Cuauhtémoc & 0.8095 \\
+112 & 132 & Cuauhtémoc & Roma Norte & 0.8095 \\
+113 & 44 & Cuauhtémoc & Roma Norte & 0.8079 \\
+114 & 163 & Cuauhtémoc & Roma Sur & 0.8079 \\
+115 & 185 & Miguel Hidalgo & San Miguel Chapultepec & 0.8079 \\
+116 & 124 & Cuauhtémoc & Doctores & 0.8062 \\
+117 & 301 & Benito Juárez & Del Valle Norte & 0.8046 \\
+118 & 118 & Cuauhtémoc & Juárez & 0.8030 \\
+119 & 162 & Cuauhtémoc & Roma Sur & 0.8030 \\
+120 & 250 & Miguel Hidalgo & Anzures & 0.7997 \\
+121 & 270 & Cuauhtémoc & Tabacalera & 0.7997 \\
+122 & 310 & Benito Juárez & San Pedro de los Pinos & 0.7997 \\
+123 & 2 & Cuauhtémoc & Cuauhtémoc & 0.7980 \\
+124 & 119 & Cuauhtémoc & Juárez & 0.7980 \\
+125 & 155 & Cuauhtémoc & Roma Sur & 0.7980 \\
+126 & 294 & Benito Juárez & Narvarte Poniente & 0.7980 \\
+127 & 181 & Cuauhtémoc & Hipódromo & 0.7980 \\
+128 & 327 & Benito Juárez & Nápoles & 0.7964 \\
+129 & 299 & Benito Juárez & Del Valle Norte & 0.7964 \\
+130 & 390 & Benito Juárez & Actipan & 0.7947 \\
+131 & 157 & Cuauhtémoc & Roma Sur & 0.7931 \\
+132 & 166 & Miguel Hidalgo & Escandón & 0.7931 \\
+133 & 169 & Miguel Hidalgo & Escandón & 0.7931 \\
+134 & 306 & Benito Juárez & Nápoles & 0.7915 \\
+135 & 308 & Benito Juárez & Nápoles & 0.7915 \\
+136 & 109 & Cuauhtémoc & Centro & 0.7898 \\
+137 & 156 & Cuauhtémoc & Roma Sur & 0.7898 \\
+138 & 282 & Benito Juárez & Del Valle Norte & 0.7898 \\
+139 & 188 & Miguel Hidalgo & San Miguel Chapultepec & 0.7898 \\
+140 & 242 & Miguel Hidalgo & Polanco & 0.7882 \\
+141 & 161 & Cuauhtémoc & Roma Sur & 0.7865 \\
+142 & 173 & Miguel Hidalgo & Escandón & 0.7865 \\
+143 & 186 & Miguel Hidalgo & San Miguel Chapultepec & 0.7865 \\
+144 & 316 & Benito Juárez & Del Valle Norte & 0.7865 \\
+145 & 4 & Cuauhtémoc & Cuauhtémoc & 0.7849 \\
+146 & 130 & Cuauhtémoc & Roma Norte & 0.7849 \\
+147 & 286 & Miguel Hidalgo & Escandón & 0.7849 \\
+148 & 212 & Miguel Hidalgo & Polanco & 0.7849 \\
+149 & 305 & Benito Juárez & Nápoles & 0.7833 \\
+150 & 140 & Cuauhtémoc & Roma Norte & 0.7816 \\
+151 & 253 & Miguel Hidalgo & Anzures & 0.7816 \\
+152 & 258 & Cuauhtémoc & Condesa & 0.7816 \\
+153 & 283 & Benito Juárez & Del Valle Norte & 0.7816 \\
+154 & 113 & Cuauhtémoc & Juárez & 0.7800 \\
+155 & 226 & Miguel Hidalgo & Polanco & 0.7800 \\
+156 & 321 & Benito Juárez & Narvarte Poniente & 0.7800 \\
+157 & 597 & Benito Juárez & Narvarte & 0.7800 \\
+158 & 555 & Cuauhtémoc & Santa Maria la Ribera & 0.7783 \\
+159 & 340 & Benito Juárez & Narvarte Poniente & 0.7783 \\
+160 & 168 & Miguel Hidalgo & Escandón & 0.7767 \\
+161 & 187 & Miguel Hidalgo & San Miguel Chapultepec & 0.7767 \\
+162 & 127 & Cuauhtémoc & Roma Norte & 0.7750 \\
+163 & 323 & Benito Juárez & Del Valle Norte & 0.7750 \\
+164 & 341 & Benito Juárez & Narvarte Poniente & 0.7750 \\
+165 & 177 & Cuauhtémoc & Hipódromo Condesa & 0.7734 \\
+166 & 191 & Miguel Hidalgo & San Miguel Chapultepec & 0.7734 \\
+167 & 257 & Cuauhtémoc & San Rafael & 0.7734 \\
+168 & 278 & Benito Juárez & Del Valle Norte & 0.7734 \\
+169 & 114 & Cuauhtémoc & Juárez & 0.7718 \\
+170 & 260 & Cuauhtémoc & Centro & 0.7685 \\
+171 & 293 & Benito Juárez & Del Valle Norte & 0.7685 \\
+172 & 208 & Miguel Hidalgo & Polanco & 0.7668 \\
+173 & 266 & Cuauhtémoc & Buenavista & 0.7668 \\
+174 & 55 & Cuauhtémoc & Centro & 0.7652 \\
+175 & 317 & Benito Juárez & Del Valle Norte & 0.7652 \\
+176 & 351 & Benito Juárez & San Pedro de los Pinos & 0.7652 \\
+177 & 405 & Benito Juárez & Portales Norte & 0.7652 \\
+178 & 11 & Cuauhtémoc & Cuauhtémoc & 0.7635 \\
+179 & 369 & Benito Juárez & Extremadura Insurgentes & 0.7635 \\
+180 & 148 & Cuauhtémoc & Roma Norte & 0.7619 \\
+181 & 304 & Benito Juárez & Nápoles & 0.7619 \\
+182 & 326 & Benito Juárez & Ampliación Nápoles & 0.7619 \\
+183 & 322 & Benito Juárez & Narvarte Poniente & 0.7619 \\
+184 & 12 & Cuauhtémoc & Cuauhtémoc & 0.7603 \\
+185 & 48 & Cuauhtémoc & Centro & 0.7603 \\
+186 & 153 & Cuauhtémoc & Roma Sur & 0.7603 \\
+187 & 195 & Miguel Hidalgo & Bosque de Chapultepec & 0.7603 \\
+188 & 455 & Miguel Hidalgo & Molino del Rey & 0.7603 \\
+189 & 110 & Cuauhtémoc & Doctores & 0.7586 \\
+190 & 57 & Cuauhtémoc & Condesa & 0.7586 \\
+191 & 62 & Cuauhtémoc & Condesa & 0.7586 \\
+192 & 296 & Benito Juárez & Narvarte Poniente & 0.7586 \\
+193 & 26 & Cuauhtémoc & Juárez & 0.7570 \\
+194 & 149 & Cuauhtémoc & Roma Sur & 0.7553 \\
+195 & 207 & Miguel Hidalgo & Polanco & 0.7553 \\
+196 & 337 & Benito Juárez & Del Valle Centro & 0.7553 \\
+197 & 50 & Cuauhtémoc & Condesa & 0.7537 \\
+198 & 325 & Benito Juárez & Del Valle Centro & 0.7537 \\
+199 & 138 & Cuauhtémoc & Roma Norte & 0.7521 \\
+200 & 277 & Benito Juárez & Narvarte Poniente & 0.7521 \\
+%
+\hline\hline
+\caption*{\footnotesize \textcolor{colorPrincipal}{Notas:} El Grado de Salida mide la proporción de salidas desde una estación hacia otras estaciones. Donde un valor igual a 1 significa que todas las salidas comienzan en esa estación y con un valor igual a 0 indica que no hay salidas desde esa estación hacia otras estaciones.}
+\end{longtable}
+\endgroup
+%\end{spacing}
+}
+}
+%%%%
+%% Centralidad: Cercanía: Día del viaje entre semana
+{
+\def\sym#1{\ifmmode^{#1}\else\(^{#1}\)\fi}
+{\footnotesize
+\begingroup
+\renewcommand*{\arraystretch}{0.7}
+\begin{longtable}{l*{4}{c}}
+\caption{\textbf{\large Cercanía: Día del viaje entre semana}} 
+\label{tab::Top200_Cercania_Dia_Entre_Semana} \\
+\hline\hline
+                    &\multicolumn{1}{c}{Ciclo-Estación}&\multicolumn{1}{c}{Alcaldía}&\multicolumn{1}{c}{Colonia}&\multicolumn{1}{c}{Cercanía}\\
+\hline
+\endhead
+\hline
+\endfoot
+\endlastfoot
+1 & 28 & Cuauhtémoc & Juárez & 0.9130 \\
+2 & 271 & Cuauhtémoc & Buenavista & 0.9130 \\
+3 & 136 & Cuauhtémoc & Roma Norte & 0.9103 \\
+4 & 56 & Cuauhtémoc & Roma Norte & 0.9063 \\
+5 & 158 & Cuauhtémoc & Roma Sur & 0.9063 \\
+6 & 25 & Cuauhtémoc & Juárez & 0.9036 \\
+7 & 43 & Cuauhtémoc & Centro & 0.9022 \\
+8 & 64 & Cuauhtémoc & Hipódromo & 0.9022 \\
+9 & 142 & Cuauhtémoc & Roma Norte & 0.9022 \\
+10 & 182 & Miguel Hidalgo & Escandón & 0.8982 \\
+11 & 31 & Cuauhtémoc & Juárez & 0.8969 \\
+12 & 291 & Benito Juárez & Del Valle Norte & 0.8969 \\
+13 & 47 & Cuauhtémoc & Roma Norte & 0.8956 \\
+14 & 129 & Cuauhtémoc & Roma Norte & 0.8956 \\
+15 & 154 & Cuauhtémoc & Roma Sur & 0.8943 \\
+16 & 27 & Cuauhtémoc & Juárez & 0.8930 \\
+17 & 30 & Cuauhtémoc & Juárez & 0.8917 \\
+18 & 45 & Cuauhtémoc & Roma Norte & 0.8917 \\
+19 & 280 & Benito Juárez & Narvarte Poniente & 0.8917 \\
+20 & 117 & Cuauhtémoc & Juárez & 0.8904 \\
+21 & 134 & Cuauhtémoc & Roma Norte & 0.8891 \\
+22 & 303 & Benito Juárez & Nápoles & 0.8878 \\
+23 & 137 & Cuauhtémoc & Roma Norte & 0.8865 \\
+24 & 139 & Cuauhtémoc & Roma Norte & 0.8865 \\
+25 & 141 & Cuauhtémoc & Roma Norte & 0.8865 \\
+26 & 276 & Benito Juárez & Narvarte Poniente & 0.8865 \\
+27 & 14 & Cuauhtémoc & Cuauhtémoc & 0.8839 \\
+28 & 17 & Cuauhtémoc & Cuauhtémoc & 0.8839 \\
+29 & 115 & Cuauhtémoc & Juárez & 0.8839 \\
+30 & 54 & Cuauhtémoc & Condesa & 0.8826 \\
+31 & 180 & Cuauhtémoc & Hipódromo & 0.8813 \\
+32 & 295 & Benito Juárez & Narvarte Poniente & 0.8813 \\
+33 & 145 & Cuauhtémoc & Roma Norte & 0.8801 \\
+34 & 33 & Cuauhtémoc & Juárez & 0.8788 \\
+35 & 38 & Cuauhtémoc & Roma Norte & 0.8788 \\
+36 & 37 & Cuauhtémoc & Roma Norte & 0.8775 \\
+37 & 121 & Cuauhtémoc & Juárez & 0.8775 \\
+38 & 150 & Cuauhtémoc & Roma Sur & 0.8750 \\
+39 & 18 & Cuauhtémoc & Cuauhtémoc & 0.8737 \\
+40 & 449 & Cuauhtémoc & Roma Norte & 0.8737 \\
+41 & 133 & Cuauhtémoc & Roma Norte & 0.8712 \\
+42 & 135 & Cuauhtémoc & Roma Norte & 0.8712 \\
+43 & 281 & Benito Juárez & Narvarte Poniente & 0.8712 \\
+44 & 128 & Cuauhtémoc & Roma Norte & 0.8700 \\
+45 & 131 & Cuauhtémoc & Roma Norte & 0.8700 \\
+46 & 302 & Benito Juárez & Del Valle Norte & 0.8700 \\
+47 & 46 & Cuauhtémoc & Roma Norte & 0.8688 \\
+48 & 126 & Cuauhtémoc & Roma Norte & 0.8688 \\
+49 & 144 & Cuauhtémoc & Roma Norte & 0.8688 \\
+50 & 315 & Benito Juárez & Nápoles & 0.8688 \\
+51 & 1 & Cuauhtémoc & Cuauhtémoc & 0.8675 \\
+52 & 32 & Cuauhtémoc & Juárez & 0.8675 \\
+53 & 53 & Cuauhtémoc & Condesa & 0.8675 \\
+54 & 123 & Cuauhtémoc & Doctores & 0.8675 \\
+55 & 36 & Cuauhtémoc & Roma Norte & 0.8663 \\
+56 & 59 & Cuauhtémoc & Hipódromo & 0.8663 \\
+57 & 132 & Cuauhtémoc & Roma Norte & 0.8663 \\
+58 & 290 & Benito Juárez & Nápoles & 0.8663 \\
+59 & 155 & Cuauhtémoc & Roma Sur & 0.8651 \\
+60 & 107 & Cuauhtémoc & Centro & 0.8638 \\
+61 & 270 & Cuauhtémoc & Tabacalera & 0.8638 \\
+62 & 124 & Cuauhtémoc & Doctores & 0.8626 \\
+63 & 146 & Cuauhtémoc & Roma Norte & 0.8626 \\
+64 & 151 & Cuauhtémoc & Roma Sur & 0.8626 \\
+65 & 163 & Cuauhtémoc & Roma Sur & 0.8626 \\
+66 & 175 & Miguel Hidalgo & Escandón & 0.8626 \\
+67 & 555 & Cuauhtémoc & Santa Maria la Ribera & 0.8626 \\
+68 & 40 & Cuauhtémoc & Roma Norte & 0.8614 \\
+69 & 152 & Cuauhtémoc & Roma Sur & 0.8614 \\
+70 & 164 & Cuauhtémoc & Roma Sur & 0.8614 \\
+71 & 369 & Benito Juárez & Extremadura Insurgentes & 0.8614 \\
+72 & 24 & Cuauhtémoc & Juárez & 0.8602 \\
+73 & 116 & Cuauhtémoc & Juárez & 0.8602 \\
+74 & 179 & Cuauhtémoc & Hipódromo & 0.8602 \\
+75 & 34 & Cuauhtémoc & Juárez & 0.8590 \\
+76 & 165 & Cuauhtémoc & Roma Sur & 0.8590 \\
+77 & 15 & Cuauhtémoc & Cuauhtémoc & 0.8577 \\
+78 & 21 & Cuauhtémoc & Juárez & 0.8577 \\
+79 & 29 & Cuauhtémoc & Centro & 0.8577 \\
+80 & 130 & Cuauhtémoc & Roma Norte & 0.8577 \\
+81 & 170 & Miguel Hidalgo & Escandón & 0.8577 \\
+82 & 52 & Cuauhtémoc & Centro & 0.8565 \\
+83 & 250 & Miguel Hidalgo & Anzures & 0.8565 \\
+84 & 194 & Miguel Hidalgo & Bosque de Chapultepec & 0.8553 \\
+85 & 109 & Cuauhtémoc & Centro & 0.8541 \\
+86 & 5 & Cuauhtémoc & Cuauhtémoc & 0.8529 \\
+87 & 16 & Cuauhtémoc & Cuauhtémoc & 0.8529 \\
+88 & 42 & Cuauhtémoc & Roma Norte & 0.8529 \\
+89 & 51 & Cuauhtémoc & Roma Norte & 0.8529 \\
+90 & 125 & Cuauhtémoc & Roma Norte & 0.8529 \\
+91 & 41 & Cuauhtémoc & Tabacalera & 0.8517 \\
+92 & 55 & Cuauhtémoc & Centro & 0.8506 \\
+93 & 61 & Cuauhtémoc & Hipódromo & 0.8506 \\
+94 & 66 & Cuauhtémoc & Condesa & 0.8506 \\
+95 & 110 & Cuauhtémoc & Doctores & 0.8506 \\
+96 & 147 & Cuauhtémoc & Roma Norte & 0.8506 \\
+97 & 185 & Miguel Hidalgo & San Miguel Chapultepec & 0.8506 \\
+98 & 260 & Cuauhtémoc & Centro & 0.8506 \\
+99 & 6 & Cuauhtémoc & Cuauhtémoc & 0.8494 \\
+100 & 597 & Benito Juárez & Narvarte & 0.8494 \\
+101 & 63 & Cuauhtémoc & Hipódromo & 0.8482 \\
+102 & 68 & Cuauhtémoc & Condesa & 0.8470 \\
+103 & 69 & Cuauhtémoc & Hipódromo & 0.8470 \\
+104 & 122 & Cuauhtémoc & Doctores & 0.8470 \\
+105 & 140 & Cuauhtémoc & Roma Norte & 0.8458 \\
+106 & 321 & Benito Juárez & Narvarte Poniente & 0.8458 \\
+107 & 22 & Cuauhtémoc & Juárez & 0.8447 \\
+108 & 23 & Cuauhtémoc & Juárez & 0.8435 \\
+109 & 120 & Cuauhtémoc & Juárez & 0.8435 \\
+110 & 35 & Cuauhtémoc & Juárez & 0.8423 \\
+111 & 143 & Cuauhtémoc & Roma Norte & 0.8400 \\
+112 & 119 & Cuauhtémoc & Juárez & 0.8388 \\
+113 & 317 & Benito Juárez & Del Valle Norte & 0.8388 \\
+114 & 447 & Cuauhtémoc & Condesa & 0.8388 \\
+115 & 341 & Benito Juárez & Narvarte Poniente & 0.8388 \\
+116 & 299 & Benito Juárez & Del Valle Norte & 0.8377 \\
+117 & 149 & Cuauhtémoc & Roma Sur & 0.8365 \\
+118 & 294 & Benito Juárez & Narvarte Poniente & 0.8365 \\
+119 & 300 & Benito Juárez & Del Valle Norte & 0.8365 \\
+120 & 306 & Benito Juárez & Nápoles & 0.8354 \\
+121 & 157 & Cuauhtémoc & Roma Sur & 0.8354 \\
+122 & 19 & Cuauhtémoc & Cuauhtémoc & 0.8342 \\
+123 & 20 & Cuauhtémoc & Cuauhtémoc & 0.8342 \\
+124 & 49 & Cuauhtémoc & Condesa & 0.8342 \\
+125 & 148 & Cuauhtémoc & Roma Norte & 0.8342 \\
+126 & 48 & Cuauhtémoc & Centro & 0.8331 \\
+127 & 282 & Benito Juárez & Del Valle Norte & 0.8331 \\
+128 & 405 & Benito Juárez & Portales Norte & 0.8331 \\
+129 & 266 & Cuauhtémoc & Buenavista & 0.8320 \\
+130 & 4 & Cuauhtémoc & Cuauhtémoc & 0.8308 \\
+131 & 39 & Cuauhtémoc & Roma Norte & 0.8308 \\
+132 & 162 & Cuauhtémoc & Roma Sur & 0.8308 \\
+133 & 58 & Cuauhtémoc & Condesa & 0.8297 \\
+134 & 127 & Cuauhtémoc & Roma Norte & 0.8297 \\
+135 & 253 & Miguel Hidalgo & Anzures & 0.8297 \\
+136 & 284 & Benito Juárez & Nápoles & 0.8297 \\
+137 & 166 & Miguel Hidalgo & Escandón & 0.8297 \\
+138 & 65 & Cuauhtémoc & Centro & 0.8286 \\
+139 & 118 & Cuauhtémoc & Juárez & 0.8286 \\
+140 & 258 & Cuauhtémoc & Condesa & 0.8286 \\
+141 & 190 & Miguel Hidalgo & San Miguel Chapultepec & 0.8274 \\
+142 & 217 & Miguel Hidalgo & Polanco & 0.8274 \\
+143 & 334 & Benito Juárez & Ampliación Nápoles & 0.8274 \\
+144 & 173 & Miguel Hidalgo & Escandón & 0.8263 \\
+145 & 195 & Miguel Hidalgo & Bosque de Chapultepec & 0.8263 \\
+146 & 44 & Cuauhtémoc & Roma Norte & 0.8252 \\
+147 & 60 & Cuauhtémoc & Condesa & 0.8252 \\
+148 & 161 & Cuauhtémoc & Roma Sur & 0.8252 \\
+149 & 389 & Benito Juárez & Insurgentes Mixcoac & 0.8252 \\
+150 & 181 & Cuauhtémoc & Hipódromo & 0.8252 \\
+151 & 113 & Cuauhtémoc & Juárez & 0.8241 \\
+152 & 354 & Benito Juárez & Noche Buena & 0.8241 \\
+153 & 549 & Cuauhtémoc & Santa Maria la Ribera & 0.8241 \\
+154 & 326 & Benito Juárez & Ampliación Nápoles & 0.8241 \\
+155 & 340 & Benito Juárez & Narvarte Poniente & 0.8241 \\
+156 & 278 & Benito Juárez & Del Valle Norte & 0.8230 \\
+157 & 668 & Benito Juárez & San Jose Insurgentes & 0.8230 \\
+158 & 114 & Cuauhtémoc & Juárez & 0.8219 \\
+159 & 273 & Cuauhtémoc & Buenavista & 0.8219 \\
+160 & 390 & Benito Juárez & Actipan & 0.8219 \\
+161 & 450 & Cuauhtémoc & Tabacalera & 0.8208 \\
+162 & 308 & Benito Juárez & Nápoles & 0.8208 \\
+163 & 375 & Benito Juárez & Letrán Valle & 0.8208 \\
+164 & 26 & Cuauhtémoc & Juárez & 0.8197 \\
+165 & 138 & Cuauhtémoc & Roma Norte & 0.8197 \\
+166 & 259 & Cuauhtémoc & Tabacalera & 0.8197 \\
+167 & 283 & Benito Juárez & Del Valle Norte & 0.8197 \\
+168 & 327 & Benito Juárez & Nápoles & 0.8197 \\
+169 & 169 & Miguel Hidalgo & Escandón & 0.8197 \\
+170 & 320 & Benito Juárez & Narvarte Poniente & 0.8197 \\
+171 & 2 & Cuauhtémoc & Cuauhtémoc & 0.8185 \\
+172 & 12 & Cuauhtémoc & Cuauhtémoc & 0.8185 \\
+173 & 186 & Miguel Hidalgo & San Miguel Chapultepec & 0.8185 \\
+174 & 10 & Cuauhtémoc & Tabacalera & 0.8174 \\
+175 & 192 & Miguel Hidalgo & Bosque de Chapultepec & 0.8174 \\
+176 & 261 & Cuauhtémoc & Cuauhtémoc & 0.8174 \\
+177 & 351 & Benito Juárez & San Pedro de los Pinos & 0.8174 \\
+178 & 293 & Benito Juárez & Del Valle Norte & 0.8174 \\
+179 & 67 & Cuauhtémoc & Condesa & 0.8164 \\
+180 & 323 & Benito Juárez & Del Valle Norte & 0.8164 \\
+181 & 112 & Cuauhtémoc & Juárez & 0.8153 \\
+182 & 156 & Cuauhtémoc & Roma Sur & 0.8142 \\
+183 & 288 & Benito Juárez & San Pedro de los Pinos & 0.8142 \\
+184 & 3 & Cuauhtémoc & Tabacalera & 0.8131 \\
+185 & 277 & Benito Juárez & Narvarte Poniente & 0.8120 \\
+186 & 318 & Benito Juárez & Del Valle Norte & 0.8120 \\
+187 & 325 & Benito Juárez & Del Valle Centro & 0.8120 \\
+188 & 191 & Miguel Hidalgo & San Miguel Chapultepec & 0.8109 \\
+189 & 310 & Benito Juárez & San Pedro de los Pinos & 0.8098 \\
+190 & 11 & Cuauhtémoc & Cuauhtémoc & 0.8088 \\
+191 & 167 & Miguel Hidalgo & Escandón & 0.8088 \\
+192 & 172 & Miguel Hidalgo & Escandón & 0.8088 \\
+193 & 237 & Miguel Hidalgo & Polanco & 0.8088 \\
+194 & 305 & Benito Juárez & Nápoles & 0.8088 \\
+195 & 177 & Cuauhtémoc & Hipódromo Condesa & 0.8077 \\
+196 & 242 & Miguel Hidalgo & Polanco & 0.8077 \\
+197 & 256 & Cuauhtémoc & San Rafael & 0.8066 \\
+198 & 337 & Benito Juárez & Del Valle Centro & 0.8066 \\
+199 & 255 & Cuauhtémoc & San Rafael & 0.8056 \\
+200 & 257 & Cuauhtémoc & San Rafael & 0.8056 \\
+%
+\hline\hline
+\caption*{\footnotesize\textcolor{colorPrincipal}{Notas:} La Cercanía mide qué tan cerca está una estación de todas las demás en términos de conexiones de red. Donde un valor igual a 1 significa que la estación tiene la menor distancia promedio a todas las otras estaciones. Un valor igual a 0 indica que es la estación con la mayor distancia promedio y siendo la menos conectada en términos de proximidad a las otras estaciones.}
+\end{longtable}
+\endgroup
+%\end{spacing}
+}
+}
+%%%%
+%% Centralidad: Intermediación Día del viaje entre semana
+{
+\def\sym#1{\ifmmode^{#1}\else\(^{#1}\)\fi}
+{\footnotesize
+\begingroup
+\renewcommand*{\arraystretch}{0.7}
+\begin{longtable}{l*{4}{c}}
+\caption{\textbf{\large Intermediación: Día del viaje entre semana}} 
+\label{tab::Top200_Intermediacion_Dia_Entre_Semana} \\
+\hline\hline
+                    &\multicolumn{1}{c}{Ciclo-Estación}&\multicolumn{1}{c}{Alcaldía}&\multicolumn{1}{c}{Colonia}&\multicolumn{1}{c}{Intermediación}\\
+\hline
+\endhead
+\hline
+\endfoot
+\endlastfoot
+1 & 56 & Cuauhtémoc & Roma Norte & 0.0034 \\
+2 & 271 & Cuauhtémoc & Buenavista & 0.0021 \\
+3 & 142 & Cuauhtémoc & Roma Norte & 0.0020 \\
+4 & 402 & Benito Juárez & Santa Cruz Atoyac & 0.0019 \\
+5 & 158 & Cuauhtémoc & Roma Sur & 0.0018 \\
+6 & 405 & Benito Juárez & Portales Norte & 0.0018 \\
+7 & 409 & Benito Juárez & Santa Cruz Atoyac & 0.0018 \\
+8 & 291 & Benito Juárez & Del Valle Norte & 0.0017 \\
+9 & 43 & Cuauhtémoc & Centro & 0.0017 \\
+10 & 30 & Cuauhtémoc & Juárez & 0.0017 \\
+11 & 146 & Cuauhtémoc & Roma Norte & 0.0016 \\
+12 & 31 & Cuauhtémoc & Juárez & 0.0016 \\
+13 & 276 & Benito Juárez & Narvarte Poniente & 0.0016 \\
+14 & 28 & Cuauhtémoc & Juárez & 0.0016 \\
+15 & 399 & Benito Juárez & Del Valle Sur & 0.0016 \\
+16 & 321 & Benito Juárez & Narvarte Poniente & 0.0016 \\
+17 & 302 & Benito Juárez & Del Valle Norte & 0.0016 \\
+18 & 33 & Cuauhtémoc & Juárez & 0.0015 \\
+19 & 63 & Cuauhtémoc & Hipódromo & 0.0015 \\
+20 & 27 & Cuauhtémoc & Juárez & 0.0015 \\
+21 & 597 & Benito Juárez & Narvarte & 0.0015 \\
+22 & 47 & Cuauhtémoc & Roma Norte & 0.0015 \\
+23 & 1 & Cuauhtémoc & Cuauhtémoc & 0.0014 \\
+24 & 17 & Cuauhtémoc & Cuauhtémoc & 0.0014 \\
+25 & 14 & Cuauhtémoc & Cuauhtémoc & 0.0014 \\
+26 & 182 & Miguel Hidalgo & Escandón & 0.0014 \\
+27 & 64 & Cuauhtémoc & Hipódromo & 0.0014 \\
+28 & 154 & Cuauhtémoc & Roma Sur & 0.0014 \\
+29 & 115 & Cuauhtémoc & Juárez & 0.0014 \\
+30 & 555 & Cuauhtémoc & Santa Maria la Ribera & 0.0014 \\
+31 & 52 & Cuauhtémoc & Centro & 0.0014 \\
+32 & 136 & Cuauhtémoc & Roma Norte & 0.0014 \\
+33 & 283 & Benito Juárez & Del Valle Norte & 0.0014 \\
+34 & 45 & Cuauhtémoc & Roma Norte & 0.0014 \\
+35 & 315 & Benito Juárez & Nápoles & 0.0014 \\
+36 & 449 & Cuauhtémoc & Roma Norte & 0.0014 \\
+37 & 25 & Cuauhtémoc & Juárez & 0.0013 \\
+38 & 295 & Benito Juárez & Narvarte Poniente & 0.0013 \\
+39 & 280 & Benito Juárez & Narvarte Poniente & 0.0013 \\
+40 & 18 & Cuauhtémoc & Cuauhtémoc & 0.0013 \\
+41 & 389 & Benito Juárez & Insurgentes Mixcoac & 0.0013 \\
+42 & 175 & Miguel Hidalgo & Escandón & 0.0013 \\
+43 & 668 & Benito Juárez & San Jose Insurgentes & 0.0013 \\
+44 & 133 & Cuauhtémoc & Roma Norte & 0.0013 \\
+45 & 340 & Benito Juárez & Narvarte Poniente & 0.0013 \\
+46 & 54 & Cuauhtémoc & Condesa & 0.0012 \\
+47 & 139 & Cuauhtémoc & Roma Norte & 0.0012 \\
+48 & 55 & Cuauhtémoc & Centro & 0.0012 \\
+49 & 688 & Coyoacán & Barrio De Santa Catarina & 0.0012 \\
+50 & 36 & Cuauhtémoc & Roma Norte & 0.0012 \\
+51 & 46 & Cuauhtémoc & Roma Norte & 0.0012 \\
+52 & 121 & Cuauhtémoc & Juárez & 0.0012 \\
+53 & 427 & Benito Juárez & Santa Cruz Atoyac & 0.0012 \\
+54 & 217 & Miguel Hidalgo & Polanco & 0.0012 \\
+55 & 390 & Benito Juárez & Actipan & 0.0012 \\
+56 & 194 & Miguel Hidalgo & Bosque de Chapultepec & 0.0012 \\
+57 & 369 & Benito Juárez & Extremadura Insurgentes & 0.0012 \\
+58 & 180 & Cuauhtémoc & Hipódromo & 0.0012 \\
+59 & 150 & Cuauhtémoc & Roma Sur & 0.0012 \\
+60 & 117 & Cuauhtémoc & Juárez & 0.0012 \\
+61 & 294 & Benito Juárez & Narvarte Poniente & 0.0012 \\
+62 & 129 & Cuauhtémoc & Roma Norte & 0.0012 \\
+63 & 37 & Cuauhtémoc & Roma Norte & 0.0012 \\
+64 & 549 & Cuauhtémoc & Santa Maria la Ribera & 0.0012 \\
+65 & 303 & Benito Juárez & Nápoles & 0.0012 \\
+66 & 134 & Cuauhtémoc & Roma Norte & 0.0012 \\
+67 & 137 & Cuauhtémoc & Roma Norte & 0.0011 \\
+68 & 107 & Cuauhtémoc & Centro & 0.0011 \\
+69 & 123 & Cuauhtémoc & Doctores & 0.0011 \\
+70 & 281 & Benito Juárez & Narvarte Poniente & 0.0011 \\
+71 & 170 & Miguel Hidalgo & Escandón & 0.0011 \\
+72 & 179 & Cuauhtémoc & Hipódromo & 0.0011 \\
+73 & 10 & Cuauhtémoc & Tabacalera & 0.0011 \\
+74 & 656 & Coyoacán & Del Carmen & 0.0011 \\
+75 & 15 & Cuauhtémoc & Cuauhtémoc & 0.0011 \\
+76 & 323 & Benito Juárez & Del Valle Norte & 0.0011 \\
+77 & 41 & Cuauhtémoc & Tabacalera & 0.0011 \\
+78 & 242 & Miguel Hidalgo & Polanco & 0.0011 \\
+79 & 164 & Cuauhtémoc & Roma Sur & 0.0011 \\
+80 & 296 & Benito Juárez & Narvarte Poniente & 0.0011 \\
+81 & 40 & Cuauhtémoc & Roma Norte & 0.0011 \\
+82 & 317 & Benito Juárez & Del Valle Norte & 0.0010 \\
+83 & 270 & Cuauhtémoc & Tabacalera & 0.0010 \\
+84 & 250 & Miguel Hidalgo & Anzures & 0.0010 \\
+85 & 592 & Benito Juárez & Alamos & 0.0010 \\
+86 & 145 & Cuauhtémoc & Roma Norte & 0.0010 \\
+87 & 615 & Benito Juárez & Narvarte & 0.0010 \\
+88 & 584 & Cuauhtémoc & Algarin & 0.0010 \\
+89 & 144 & Cuauhtémoc & Roma Norte & 0.0010 \\
+90 & 476 & Miguel Hidalgo & Granada & 0.0010 \\
+91 & 300 & Benito Juárez & Del Valle Norte & 0.0010 \\
+92 & 419 & Benito Juárez & Insurgentes Mixcoac & 0.0010 \\
+93 & 128 & Cuauhtémoc & Roma Norte & 0.0010 \\
+94 & 131 & Cuauhtémoc & Roma Norte & 0.0010 \\
+95 & 151 & Cuauhtémoc & Roma Sur & 0.0010 \\
+96 & 110 & Cuauhtémoc & Doctores & 0.0010 \\
+97 & 32 & Cuauhtémoc & Juárez & 0.0010 \\
+98 & 152 & Cuauhtémoc & Roma Sur & 0.0010 \\
+99 & 260 & Cuauhtémoc & Centro & 0.0010 \\
+100 & 38 & Cuauhtémoc & Roma Norte & 0.0010 \\
+101 & 141 & Cuauhtémoc & Roma Norte & 0.0010 \\
+102 & 6 & Cuauhtémoc & Cuauhtémoc & 0.0010 \\
+103 & 351 & Benito Juárez & San Pedro de los Pinos & 0.0010 \\
+104 & 5 & Cuauhtémoc & Cuauhtémoc & 0.0010 \\
+105 & 61 & Cuauhtémoc & Hipódromo & 0.0010 \\
+106 & 290 & Benito Juárez & Nápoles & 0.0010 \\
+107 & 39 & Cuauhtémoc & Roma Norte & 0.0010 \\
+108 & 126 & Cuauhtémoc & Roma Norte & 0.0010 \\
+109 & 21 & Cuauhtémoc & Juárez & 0.0010 \\
+110 & 53 & Cuauhtémoc & Condesa & 0.0010 \\
+111 & 109 & Cuauhtémoc & Centro & 0.0010 \\
+112 & 19 & Cuauhtémoc & Cuauhtémoc & 0.0010 \\
+113 & 155 & Cuauhtémoc & Roma Sur & 0.0010 \\
+114 & 29 & Cuauhtémoc & Centro & 0.0010 \\
+115 & 299 & Benito Juárez & Del Valle Norte & 0.0010 \\
+116 & 132 & Cuauhtémoc & Roma Norte & 0.0010 \\
+117 & 165 & Cuauhtémoc & Roma Sur & 0.0010 \\
+118 & 49 & Cuauhtémoc & Condesa & 0.0010 \\
+119 & 34 & Cuauhtémoc & Juárez & 0.0010 \\
+120 & 35 & Cuauhtémoc & Juárez & 0.0010 \\
+121 & 589 & Benito Juárez & Alamos & 0.0009 \\
+122 & 316 & Benito Juárez & Del Valle Norte & 0.0009 \\
+123 & 341 & Benito Juárez & Narvarte Poniente & 0.0009 \\
+124 & 4 & Cuauhtémoc & Cuauhtémoc & 0.0009 \\
+125 & 626 & Benito Juárez & Vertiz Narvarte & 0.0009 \\
+126 & 442 & Benito Juárez & Xoco & 0.0009 \\
+127 & 51 & Cuauhtémoc & Roma Norte & 0.0009 \\
+128 & 135 & Cuauhtémoc & Roma Norte & 0.0009 \\
+129 & 116 & Cuauhtémoc & Juárez & 0.0009 \\
+130 & 59 & Cuauhtémoc & Hipódromo & 0.0009 \\
+131 & 192 & Miguel Hidalgo & Bosque de Chapultepec & 0.0009 \\
+132 & 337 & Benito Juárez & Del Valle Centro & 0.0009 \\
+133 & 672 & Benito Juárez & San Jose Insurgentes & 0.0009 \\
+134 & 480 & Miguel Hidalgo & Mariano Escobedo & 0.0009 \\
+135 & 602 & Benito Juárez & Postal & 0.0009 \\
+136 & 24 & Cuauhtémoc & Juárez & 0.0009 \\
+137 & 277 & Benito Juárez & Narvarte Poniente & 0.0009 \\
+138 & 412 & Benito Juárez & Santa Cruz Atoyac & 0.0009 \\
+139 & 16 & Cuauhtémoc & Cuauhtémoc & 0.0009 \\
+140 & 301 & Benito Juárez & Del Valle Norte & 0.0009 \\
+141 & 124 & Cuauhtémoc & Doctores & 0.0009 \\
+142 & 20 & Cuauhtémoc & Cuauhtémoc & 0.0009 \\
+143 & 343 & Benito Juárez & Del valle Centro & 0.0009 \\
+144 & 105 & Cuauhtémoc & Centro & 0.0009 \\
+145 & 125 & Cuauhtémoc & Roma Norte & 0.0009 \\
+146 & 325 & Benito Juárez & Del Valle Centro & 0.0009 \\
+147 & 48 & Cuauhtémoc & Centro & 0.0009 \\
+148 & 447 & Cuauhtémoc & Condesa & 0.0009 \\
+149 & 120 & Cuauhtémoc & Juárez & 0.0009 \\
+150 & 147 & Cuauhtémoc & Roma Norte & 0.0009 \\
+151 & 122 & Cuauhtémoc & Doctores & 0.0009 \\
+152 & 7 & Cuauhtémoc & Cuauhtémoc & 0.0009 \\
+153 & 66 & Cuauhtémoc & Condesa & 0.0009 \\
+154 & 448 & Cuauhtémoc & Doctores & 0.0009 \\
+155 & 374 & Benito Juárez & Del valle Centro & 0.0009 \\
+156 & 22 & Cuauhtémoc & Juárez & 0.0009 \\
+157 & 474 & Miguel Hidalgo & Anáhuac I Sección & 0.0008 \\
+158 & 370 & Benito Juárez & Tlacoquemecatl del Valle & 0.0008 \\
+159 & 305 & Benito Juárez & Nápoles & 0.0008 \\
+160 & 546 & Cuauhtémoc & Santa Maria la Ribera & 0.0008 \\
+161 & 140 & Cuauhtémoc & Roma Norte & 0.0008 \\
+162 & 253 & Miguel Hidalgo & Anzures & 0.0008 \\
+163 & 162 & Cuauhtémoc & Roma Sur & 0.0008 \\
+164 & 118 & Cuauhtémoc & Juárez & 0.0008 \\
+165 & 23 & Cuauhtémoc & Juárez & 0.0008 \\
+166 & 2 & Cuauhtémoc & Cuauhtémoc & 0.0008 \\
+167 & 119 & Cuauhtémoc & Juárez & 0.0008 \\
+168 & 381 & Benito Juárez & Tlacoquemecatl del Valle & 0.0008 \\
+169 & 327 & Benito Juárez & Nápoles & 0.0008 \\
+170 & 237 & Miguel Hidalgo & Polanco & 0.0008 \\
+171 & 334 & Benito Juárez & Ampliación Nápoles & 0.0008 \\
+172 & 130 & Cuauhtémoc & Roma Norte & 0.0008 \\
+173 & 298 & Benito Juárez & Del Valle Norte & 0.0008 \\
+174 & 258 & Cuauhtémoc & Condesa & 0.0008 \\
+175 & 163 & Cuauhtémoc & Roma Sur & 0.0008 \\
+176 & 618 & Benito Juárez & Vertiz Narvarte & 0.0008 \\
+177 & 161 & Cuauhtémoc & Roma Sur & 0.0008 \\
+178 & 185 & Miguel Hidalgo & San Miguel Chapultepec & 0.0008 \\
+179 & 195 & Miguel Hidalgo & Bosque de Chapultepec & 0.0008 \\
+180 & 257 & Cuauhtémoc & San Rafael & 0.0008 \\
+181 & 102 & Cuauhtémoc & Centro & 0.0008 \\
+182 & 392 & Benito Juárez & Tlacoquemecatl del Valle & 0.0008 \\
+183 & 384 & Benito Juárez & Insurgentes Mixcoac & 0.0008 \\
+184 & 282 & Benito Juárez & Del Valle Norte & 0.0008 \\
+185 & 68 & Cuauhtémoc & Condesa & 0.0008 \\
+186 & 645 & Benito Juárez & Portales & 0.0008 \\
+187 & 58 & Cuauhtémoc & Condesa & 0.0008 \\
+188 & 44 & Cuauhtémoc & Roma Norte & 0.0008 \\
+189 & 74 & Cuauhtémoc & Hipódromo & 0.0008 \\
+190 & 261 & Cuauhtémoc & Cuauhtémoc & 0.0008 \\
+191 & 69 & Cuauhtémoc & Hipódromo & 0.0008 \\
+192 & 404 & Benito Juárez & Portales Norte & 0.0008 \\
+193 & 432 & Benito Juárez & General Pedro María Anaya & 0.0008 \\
+194 & 306 & Benito Juárez & Nápoles & 0.0008 \\
+195 & 42 & Cuauhtémoc & Roma Norte & 0.0008 \\
+196 & 226 & Miguel Hidalgo & Polanco & 0.0008 \\
+197 & 11 & Cuauhtémoc & Cuauhtémoc & 0.0008 \\
+198 & 322 & Benito Juárez & Narvarte Poniente & 0.0008 \\
+199 & 450 & Cuauhtémoc & Tabacalera & 0.0008 \\
+200 & 425 & Benito Juárez & Del Valle Sur & 0.0008 \\
+%
+\hline\hline
+\caption*{\footnotesize\textcolor{colorPrincipal}{Notas:} La Intermediación mide la proporción de veces que una estación actúa como un intermediario en el camino más corto entre otras dos estaciones. Un valor de 1 significa que la estación se encuentra en todos los caminos más cortos entre cualquier par de estaciones, un valor de 0 indica que la estación no actúa como intermediario en ningún camino más corto.}
+\end{longtable}
+\endgroup
+%\end{spacing}
+}
+}
